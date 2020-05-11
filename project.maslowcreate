@@ -21,6 +21,14 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Input",
+            "name": "Rotate",
+            "x": 0.018301610541727673,
+            "y": 0.25287356321839083,
+            "uniqueID": 428586,
+            "ioValues": []
+        },
+        {
             "atomType": "Molecule",
             "name": "Outline",
             "x": 0.18594436310395315,
@@ -420,12 +428,25 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Input",
-            "name": "Rotate",
-            "x": 0.02342606149341142,
-            "y": 0.28735632183908044,
-            "uniqueID": 428586,
-            "ioValues": []
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.3279648609077599,
+            "y": 0.35249042145593873,
+            "uniqueID": 908657,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Molecule",
@@ -608,16 +629,16 @@
         {
             "atomType": "Input",
             "name": "Translate X",
-            "x": 0.020497803806734993,
-            "y": 0.6360153256704981,
+            "x": 0.01903367496339678,
+            "y": 0.5402298850574713,
             "uniqueID": 389201,
             "ioValues": []
         },
         {
             "atomType": "Molecule",
             "name": "Desk",
-            "x": 0.1844802342606149,
-            "y": 0.685823754789272,
+            "x": 0.18740849194729137,
+            "y": 0.7088122605363985,
             "uniqueID": 860532,
             "ioValues": [
                 {
@@ -800,27 +821,6 @@
             "ioValues": []
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.6573938506588579,
-            "y": 0.5593869731800766,
-            "uniqueID": 908657,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 4",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -837,6 +837,12 @@
             "ap2ID": 908657
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 908657
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 3",
             "ap2Primary": false,
@@ -849,12 +855,6 @@
             "ap2Primary": false,
             "ap1ID": 860532,
             "ap2ID": 908657
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 908657
         }
     ],
     "fileTypeVersion": 1,
